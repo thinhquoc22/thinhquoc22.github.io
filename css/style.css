@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+html{
+	scroll-behavior: smooth;
+}
+/*header*/
+.header{
+	background-image: url("../img/photo-1483470134942-13bbf4677d84.jpg");
+	height: 900px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.header_tittle{
+	color:#1f1f1f;
+	margin-top: 180px;
+	letter-spacing: 8px;
+	font-size: 2rem!important;
+	font-family: 'Croissant One', cursive;
+	opacity: 0.8;
+}
+.thinhquoc{
+	color:#1f1f1f;
+	letter-spacing: 8px;
+	font-size: 2.2rem!important;
+	font-family: 'Croissant One', cursive;
+}
+.contactme{
+	font-weight: 600!important;
+}
+.contactme:hover{
+	color: white!important;
+}
+.fontlogo{
+	font-size: 2rem!important;
+	font-family: 'Lobster', cursive;
+}
+.navbar li a{
+	font-weight: 700;
+	font-family: 'Lobster', cursive;
+	font-size: 1.2rem;
+	margin: 10px;
+}
+/*about*/
+.mechua{
+	background-color:#FFBE00;
+	border-radius: 50%;
+}
+.heading_tittle{
+	font-weight: 500!important;
+}
+.xemthem{
+	color:#1f1f1f!important;
+	font-weight: 600!important;
+}
+.xemthem:hover{
+	color: white!important;
+}
+.arow{
+	margin: 3px;
+}
+/*what we do*/
+.iconnic{
+	color: #FFBE00;
+}
+.whatwedo{
+	margin-top: 50px;
+}
+.hireme{
+	color:#1f1f1f!important;
+	font-weight: 600!important;
+}
+.hireme:hover{
+	color: white!important;
+}
+/*contact*/
+.contact-form{
+	margin-top: 120px;
+}
+.submit{
+	margin-bottom: 100px;
+	font-weight: 600!important;
+}
+.submit:hover{
+	color:white!important;
+}
+/*skills*/
+.skills{
+	margin-top: 100px;
+	height: 300px;
+}
+/*footer*/
+.footer{
+	background-color: #4E4E4E;
+	height: 100px;
+}
+.iconft{
+	margin: 30px 10px;
+	color: #FFBE00;
+}
+.iconft:hover{
+	color: white;
+}
+.textft{
+	margin: 32px 10px;
+	color: white;
+}
+
+
+@media (max-width:600px){
+	.header_tittle{
+	color:#1f1f1f;
+	letter-spacing: 8px;
+	font-size: 1rem!important;
+	font-family: 'Croissant One', cursive;
+	opacity: 0.8;
+	}
+	.thinhquoc{
+	color:#1f1f1f;
+	letter-spacing: 8px;
+	font-size: 1rem!important;
+	font-family: 'Croissant One', cursive;
+	font-weight: 600;
+	}
+}
+.clickhere{
+	font-weight: 600!important;
+}
+.clickhere:hover{
+	color: white!important;
+}
+
+@media (max-width:768px){
+	.clickhere{
+		color: grey!important;
+	}
+}
